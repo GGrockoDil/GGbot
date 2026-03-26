@@ -3,7 +3,7 @@ tg.ready();
 tg.expand();*/
 
 .main-button {
-    display: inline-block;
+    display: block;
             width: 100vw;                    /* часто делают на всю ширину */
             max-width: 100vw;
             padding: 14px 20px;
