@@ -4,8 +4,8 @@ tg.expand();*/
 
 .main-button {
     display: inline-block;
-            width: 100%;                    /* часто делают на всю ширину */
-            max-width: 100%;
+            width: 100vw;                    /* часто делают на всю ширину */
+            max-width: 100vw;
             padding: 14px 20px;
             font-size: 17px;
             font-weight: 600;
