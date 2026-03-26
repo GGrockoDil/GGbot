@@ -1,6 +1,26 @@
+const tg = window.Telegram.WebApp;
+tg.ready();
+tg.expand();
+
 .main-button {
-    color: brown;
-    display: block;
-    width: 80vw;
-    margin-left: 10%;
+    display: inline-block;
+            width: 100%;                    /* часто делают на всю ширину */
+            max-width: 100%;
+            padding: 14px 20px;
+            font-size: 17px;
+            font-weight: 600;
+            text-align: center;
+            text-decoration: none;
+            border: none;
+            border-radius: 10px;            /* Telegram любит скругление ~8-12px */
+            background-color: var(--tg-theme-button-color, #2481cc);
+            color: var(--tg-theme-button-text-color, #ffffff);
+            cursor: pointer;
+            transition: all 0.2s ease;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.main-button:hover, .main-button:active {
+    opacity: 0.9;
+    transform: translateY(1px);
 }
